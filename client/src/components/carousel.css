@@ -1,0 +1,43 @@
+.amazon-carousel-container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+h1 {
+  color: gray;
+  font-family: "Playfair Display", serif;
+}
+.slick-slide > div {
+  margin: 0 10px; /* Adjust the margin as needed */
+}
+.slick-slide img {
+  width: 100%;
+}
+
+.slick-prev,
+.slick-next {
+  font-size: 30px;
+  color: #e0e0e0;
+}
+.slick-prev:before,
+.slick-next:before {
+  font-size: 1.5rem;
+  /* color: #e0e0e0; */
+}
+
+.slick-prev:hover,
+.slick-next:hover {
+  color: #000;
+}
+
+.slick-dots li button:before {
+  color: #333;
+}
+
+.slick-dots li.slick-active button:before {
+  color: #007fc4;
+}
+
+.slick-next {
+  right: -1.25rem;
+}
